@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <!--
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" />
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/normalize.css" />
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/custom.css" />
+        -->
+        
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/custom.css" />
+        
+        <link href='https://fonts.googleapis.com/css?family=Teko:400,500,700' rel='stylesheet' type='text/css'>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+        <script src="js/responsiveslides.min.js"></script>
+
+    </head>
+    <body>
+        <div id="intro" class="home-featured">
+            <video autoplay loop class="video" width="100%" muted>
+            <source src="images/visualizer.mov" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.</video>
+            <div id="full-width-div-banner" class="color-overlay"></div>
+            
+
+            
+        <img class="logo fade" src="images/intro-logo.png" alt="Illusion Sound Ent.">
+            
+
+            <ul class="menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Bio</a></li>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Mixtapes</a></li>
+              <li><a href="#">Booking</a></li>
+            </ul>
+            <div class="scrollDown">
+                <span>Scroll Down</span>
+                <div class="scroll">
+                    <img alt="" class="" src="/images/down_arrow.svg">
+                </div>
+            </div>
+        </div>
+        <div class="content home-page">
+            <div class="wrapper">
+                <div style="position:relative;">
+                    <ul class="rslides">
+                      <li><img src="images/1.jpeg" alt=""></li>
+                      <li><img src="images/1.jpeg" alt=""></li>
+                      <li><img src="images/1.jpeg" alt=""></li>
+                    </ul> 
+                </div>
+                
+                
+<div class="onepcssgrid-1000 margin">
+
+   <div class="onerow">
+        <div class="col3 col-bot-margin">
+            <div class="mixtape-intro">
+            <img src="images/deck-icon.png" class="deck-icon" alt="Deck Icon">
+            <h3>Mixtape <span class="redtext">downloads.</span></h3>
+                <div class="clear"></div>
+            <p>Download the latest and greatest mixtapes released by Illusion Sound.</p>
+
+            <a class="all" href="/download">-View all</a>
+            </div>
+        </div>
+      <div class="col3 col-bot-margin">
+          <a href="#">
+            <img src="http://i2.wp.com/illusionsoundent.com/wp-content/uploads/2015/11/ILLUSION-READY-MIXTAPE-ALBUM-ART.jpg?resize=800%2C800">
+          </a>
+       </div>
+      <div class="col3 col-bot-margin">
+          <a href="#">
+            <img src="http://i2.wp.com/illusionsoundent.com/wp-content/uploads/2015/11/ILLUSION-READY-MIXTAPE-ALBUM-ART.jpg?resize=800%2C800">
+          </a>       
+       </div>
+      <div class="col3 col-bot-margin last">
+          <a href="#">
+            <img src="http://i2.wp.com/illusionsoundent.com/wp-content/uploads/2015/11/ILLUSION-READY-MIXTAPE-ALBUM-ART.jpg?resize=800%2C800">
+          </a>       
+       </div>
+       <div class="clear"></div>
+   </div>
+
+   <div class="onerow" style="display:none;">
+       
+      <div class="col12"><img class="event-icon" src="images/event-icon.png"><h2>Events</h2></div>
+       <div class="clear"></div>
+   </div>
+
+</div>
+                
+            </div>
+        </div>
+        
+        <div>
+        <div class="onepcssgrid-1000 footer">
+               <div class="onerow">
+                <div class="col12">
+                    <p class="copy">&copy; 2013 Illision Sound Entertainment, All Rights Reserved.</p>
+                    <p class="credit">Designed by <a href="#">Andre Glegg</a></p>
+                    <div class="clear"></div>
+                </div>
+        
+            </div>
+        </div>
+        <script>
+          $(function() {
+            $(".rslides").responsiveSlides({
+              auto: true,             // Boolean: Animate automatically, true or false
+              speed: 500,            // Integer: Speed of the transition, in milliseconds
+              timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+              pager: false,           // Boolean: Show pager, true or false
+              nav: true,             // Boolean: Show navigation, true or false
+              random: false,          // Boolean: Randomize the order of the slides, true or false
+              pause: true,           // Boolean: Pause on hover, true or false
+              pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+              prevText: "Previous",   // String: Text for the "previous" button
+              nextText: "Next",       // String: Text for the "next" button
+              maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+              navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+              manualControls: "",     // Selector: Declare custom pager navigation
+              namespace: "large-btns",   // String: Change the default namespace - centered-btns
+              before: function(){},   // Function: Before callback
+              after: function(){}     // Function: After callback
+            });
+          });
+        </script>
+    </body>
+</html>
